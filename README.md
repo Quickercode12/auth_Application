@@ -35,7 +35,12 @@ The backend uses Express and MongoDB.
    ```
    npm install
    ```
-3. Start the backend server:
+3. change .env file
+   ```
+   PORT = ""
+   MONGODB = ""
+   
+4. Start the backend server:
    ```
    node server.js
    ```
